@@ -20,7 +20,7 @@ tools = [
 ]
 
 # 3. Get the prompt to use
-prompt = hub.pull("hwchase17/react")
+prompt = hub.pull("hwchase17/react",api_key=LANGSMITH_API_KEY)
 
 # 4. Construct the ReAct agent
 agent = create_react_agent(model, tools, prompt)

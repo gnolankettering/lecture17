@@ -1,0 +1,8 @@
+langchain_openai
+langchain
+langchain_community
+numexpr
+langchain_experimental
+pandas
+tabulate
+duckduckgo-search
